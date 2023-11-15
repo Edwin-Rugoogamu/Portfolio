@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
-function LandingPageNavBar(props) {
+function LandingPageNavBar() {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 768);
 
