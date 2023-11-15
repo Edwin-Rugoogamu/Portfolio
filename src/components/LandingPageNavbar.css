@@ -1,0 +1,66 @@
+#Navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+#Link {
+  text-decoration: none;
+  color: white;
+  /* margin-left: 20px; */
+  margin-right: 20px;
+}
+.Link {
+  text-decoration: none;
+  color: white;
+}
+#Dropdown-Menu {
+  background-color: black;
+}
+#toggle {
+  border: none;
+  background-color: black;
+}
+#NavToggle {
+  border: none;
+  color: white;
+  background-color: white;
+}
+
+#NavToggle:focus {
+  box-shadow: none;
+}
+
+#NavToggle:hover {
+  color: white;
+}
+#offcanvas{
+    background-color: black;
+    color: white;
+}
+#offcanvas .btn-close{
+ background-color: white;
+    color: white;
+}
+
+@media(0px <= width <= 768px){
+
+    #offcanvas{
+        text-align: center;
+      
+    }
+    #Link2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+      #Link2:hover{
+        background-color: rgba(83, 74, 74, 0.349);
+      }
+}
+
+@media(768px <= width <= 2000px){
+
+    #offcanvas:active{
+       display: none;
+    }
+}
