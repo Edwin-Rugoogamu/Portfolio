@@ -1,5 +1,5 @@
 import React from "react";
-import "./LandingPageNavBar.css";
+import style from "./LandingPageNavBar.module.css";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -37,19 +37,19 @@ function LandingPageNavBar() {
   return (
     <>
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className=" mb-3" id="Navbar">
+        <Navbar key={expand} expand={expand} className=" mb-3" id={style.Navbar}>
           <Container fluid>
             <Navbar.Brand>
               {" "}
-              <Link to="#" id="Link">
+              <Link to="#" id={style.Link}>
                 {" "}
                 Navbar Offcanvas
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id="NavToggle" onClick={() => setShowOffcanvas(!showOffcanvas)}/>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id={style.NavToggle} onClick={() => setShowOffcanvas(!showOffcanvas)}/>
             <Navbar.Offcanvas 
               // id={`offcanvasNavbar-expand-${expand}`}
-              id="offcanvas"
+              id={style.offcanvas}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
               show={showOffcanvas} onHide={closeOffcanvas}
@@ -61,35 +61,35 @@ function LandingPageNavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav id="Link2">
+                  <Nav id={style.Link2}>
                     {" "}
-                    <Link to="#action1" id="Link">
+                    <Link to="#action1" id={style.Link}>
                       {" "}
                       Home
                     </Link>
                   </Nav>
-                  <Nav id="Link2">
-                    <Link to="#action2" id="Link">
+                  <Nav id={style.Link2}>
+                    <Link to="#action2" id={style.Link}>
                       {" "}
                       About
                     </Link>
                   </Nav>
 
                   {/* yaa */}
-                  <Nav id="Link2">
-                    <Link to="#action2" id="Link">
+                  <Nav id={style.Link2}>
+                    <Link to="#action2" id={style.Link}>
                       {" "}
                       Services
                     </Link>
                   </Nav>
-                  <Nav id="Link2">
-                    <Link to="#action2" id="Link">
+                  <Nav id={style.Link2}>
+                    <Link to="#action2" id={style.Link}>
                       {" "}
                       Portfolio
                     </Link>
                   </Nav>
-                  <Nav id="Link2">
-                    <Link to="#action2" id="Link">
+                  <Nav id={style.Link2}>
+                    <Link to="#action2" id={style.Link}>
                       {" "}
                       Contact
                     </Link>
