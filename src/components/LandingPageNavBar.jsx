@@ -61,39 +61,39 @@ function LandingPageNavBar(props) {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link id="Link2">
+                  <Nav id="Link2">
                     {" "}
                     <Link to="#action1" id="Link">
                       {" "}
                       Home
                     </Link>
-                  </Nav.Link>
-                  <Nav.Link id="Link2">
+                  </Nav>
+                  <Nav id="Link2">
                     <Link to="#action2" id="Link">
                       {" "}
                       About
                     </Link>
-                  </Nav.Link>
+                  </Nav>
 
                   {/* yaa */}
-                  <Nav.Link  id="Link2">
+                  <Nav id="Link2">
                     <Link to="#action2" id="Link">
                       {" "}
                       Services
                     </Link>
-                  </Nav.Link>
-                  <Nav.Link id="Link2">
+                  </Nav>
+                  <Nav id="Link2">
                     <Link to="#action2" id="Link">
                       {" "}
                       Portfolio
                     </Link>
-                  </Nav.Link>
-                  <Nav.Link id="Link2">
+                  </Nav>
+                  <Nav id="Link2">
                     <Link to="#action2" id="Link">
                       {" "}
                       Contact
                     </Link>
-                  </Nav.Link>
+                  </Nav>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
