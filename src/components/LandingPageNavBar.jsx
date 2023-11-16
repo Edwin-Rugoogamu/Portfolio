@@ -10,6 +10,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import { useState, useEffect } from "react";
+import "../index.css";
 
 function LandingPageNavBar() {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
@@ -23,9 +24,9 @@ function LandingPageNavBar() {
   };
 
   useEffect(() => {
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -37,63 +38,56 @@ function LandingPageNavBar() {
   return (
     <>
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className=" mb-3" id={style.Navbar}>
+        <Navbar
+          key={expand}
+          expand={expand}
+          className=" mb-3"
+          id={style.Navbar}
+        >
           <Container fluid>
             <Navbar.Brand>
               {" "}
               <Link to="#" id={style.Link}>
                 {" "}
-                Navbar Offcanvas
+                <label className={style.e}>E</label>dwin .
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} id={style.NavToggle} onClick={() => setShowOffcanvas(!showOffcanvas)}/>
-            <Navbar.Offcanvas 
+            <Navbar.Toggle
+              aria-controls={`offcanvasNavbar-expand-${expand}`}
+              id={style.NavToggle}
+              onClick={() => setShowOffcanvas(!showOffcanvas)}
+            />
+            <Navbar.Offcanvas
               // id={`offcanvasNavbar-expand-${expand}`}
-              id={style.offcanvas}
+              id="offcanvas"
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
-              show={showOffcanvas} onHide={closeOffcanvas}
+              show={showOffcanvas}
+              onHide={closeOffcanvas}
             >
-              <Offcanvas.Header closeButton >
+              <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   Offcanvas
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav id={style.Link2}>
-                    {" "}
-                    <Link to="#action1" id={style.Link}>
-                      {" "}
-                      Home
-                    </Link>
-                  </Nav>
-                  <Nav id={style.Link2}>
-                    <Link to="#action2" id={style.Link}>
-                      {" "}
-                      About
-                    </Link>
-                  </Nav>
-
+                  <Link to="#action1" id={style.Link}>
+                    <Nav id={style.Link2}> Home</Nav>
+                  </Link>
+                  <Link to="#action2" id={style.Link}>
+                    <Nav id={style.Link2}> About</Nav>
+                  </Link>
                   {/* yaa */}
-                  <Nav id={style.Link2}>
-                    <Link to="#action2" id={style.Link}>
-                      {" "}
-                      Services
-                    </Link>
-                  </Nav>
-                  <Nav id={style.Link2}>
-                    <Link to="#action2" id={style.Link}>
-                      {" "}
-                      Portfolio
-                    </Link>
-                  </Nav>
-                  <Nav id={style.Link2}>
-                    <Link to="#action2" id={style.Link}>
-                      {" "}
-                      Contact
-                    </Link>
-                  </Nav>
+                  <Link to="#action2" id={style.Link}>
+                    <Nav id={style.Link2}> Services</Nav>
+                  </Link>
+                  <Link to="#action2" id={style.Link}>
+                    <Nav id={style.Link2}> Portfolio</Nav>
+                  </Link>
+                  <Link to="#action2" id={style.Link}>
+                    <Nav id={style.Link2}> Contact</Nav>
+                  </Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

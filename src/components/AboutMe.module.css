@@ -1,0 +1,32 @@
+#container{
+    background-color: black;
+}
+#col{
+    padding-left: 11%;
+    margin-top: 50px;
+    
+}
+#col1{
+  
+    margin-top: 50px;
+}
+.ul{
+  text-decoration: none;
+  list-style: none;
+  
+}
+.li{
+  text-decoration: none;
+ color: aqua;
+ float: left;
+ margin-left: 0px;
+ margin-right: 100px;
+ font-size: larger;
+
+}
+.li:hover{
+    color: white;
+}
+.img{
+    border-radius: 10px;
+}

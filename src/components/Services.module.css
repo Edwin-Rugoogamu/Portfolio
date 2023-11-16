@@ -1,0 +1,18 @@
+#container{
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+#col{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color: blue; */
+}
+.label{
+    margin: 10px;
+    /* border: 1px solid white; */
+    padding-left: 10px;
+    background-color: rgb(37, 48, 54);
+    border-radius: 10px;
+    text-align: center;
+}
