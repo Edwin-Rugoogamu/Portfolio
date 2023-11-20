@@ -8,7 +8,7 @@ function AboutMe(props) {
         <div>
             <div className="container-fluid" id={style.container}>
                 <div className='row'>
-                    <div className='col' id={style.col}>
+                    <div className='col-sm-12 col-md-5 col-lg-6 col-xl-6' id={style.col}>
                         <img src="/images/IMG-20220711-WA0056.jpg" alt="" className={style.img} />
                     </div>
                     <div className='col' id={style.col1}>

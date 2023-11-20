@@ -3,6 +3,7 @@ import LandingPageNavBar from "./components/LandingPageNavBar";
 import style from "./LandingPage.module.css";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 function LandingPage(props) {
   return (
@@ -26,6 +27,7 @@ function LandingPage(props) {
         </div>
         <AboutMe/>
         <Services/>
+        <Contact/>
         </div>
      
       </div>

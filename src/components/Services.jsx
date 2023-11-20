@@ -6,23 +6,23 @@ function Services(props) {
             <div className='container-fluid' id={style.container}>
                 <div className='row'>
                     <h1>My Services</h1>
-                    <div className='col' id={style.col}>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label}>
-                            <img src="" alt="" />
+                            <img src="/images/2801091.png" alt="" className={style.image}/>
                             <h6>Web Design</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
                         </label>
                     </div>
-                    <div className='col' id={style.col}>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label}>
-                            <img src="" alt="" />
+                            <img src="/images/3476582.png" alt="" className={style.image}/>
                             <h6>UI/UX</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
                         </label>
                     </div>
-                    <div className='col' id={style.col}>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label}>
-                            <img src="" alt="" />
+                            <img src="/images/5376895-200.png" alt="" className={style.image} />
                             <h6>App Design</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
                         </label>
@@ -34,25 +34,31 @@ function Services(props) {
             <div className='container-fluid' id={style.container}>
                 <div className='row'>
                     <h1>My Work</h1>
-                    <div className='col' id={style.col}>
-                        <label className={style.label}>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label1}>
+                            <label className={style.label_1} >
                             <img src="" alt="" />
-                            <h6>Web Design</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
+                            <h6>Ecommerce Websites</h6>
+                            <p>Agricultural and Commodities in General trading online ,the buying and selling of products. Developed a number of them with great user experience</p>
+                            </label>
                         </label>
                     </div>
-                    <div className='col' id={style.col}>
-                        <label className={style.label}>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label2}>
+                            <label className={style.label_1} >
                             <img src="" alt="" />
-                            <h6>UI/UX</h6>
+                            <h6>Social Media</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
+                            </label>
                         </label>
                     </div>
-                    <div className='col' id={style.col}>
-                        <label className={style.label}>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label3}>
+                            <label className={style.label_1} >
                             <img src="" alt="" />
-                            <h6>App Design</h6>
+                            <h6>Learning Platforms</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
+                            </label>
                         </label>
                     </div>
                    

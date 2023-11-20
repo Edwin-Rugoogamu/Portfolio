@@ -16,11 +16,11 @@
   
 }
 .li{
-  text-decoration: none;
+ text-decoration: none;
  color: aqua;
  float: left;
  margin-left: 0px;
- margin-right: 100px;
+ margin-right: 50px;
  font-size: larger;
 
 }
@@ -29,4 +29,12 @@
 }
 .img{
     border-radius: 10px;
+    width: 100%;
+}
+@media(0px <= width <=767px){
+
+    #col1{
+  
+        padding-left: 10%;
+    }
 }

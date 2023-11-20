@@ -1,0 +1,29 @@
+#container{
+    background-color: black;
+    padding-bottom: 30px;
+}
+#row{
+    padding-top: 50px;
+    padding-left: 11%;
+}
+#container2{
+    background-color: black;
+ 
+    text-align: center;
+    border: 1px solid rgb(11, 144, 177);
+}
+.input{
+  width: 80%;
+  border-radius: 5px;
+}
+
+.button{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(20, 85, 85);
+    font-weight: bold;
+    font-size: larger;
+    font-family:sans-serif;
+    color: white;
+}
