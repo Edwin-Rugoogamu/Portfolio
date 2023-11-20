@@ -35,6 +35,14 @@ function LandingPageNavBar() {
       closeOffcanvas();
     }
   }, [isLargeScreen]);
+
+  // scroll to section
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
       {["md"].map((expand) => (
@@ -47,7 +55,7 @@ function LandingPageNavBar() {
           <Container fluid>
             <Navbar.Brand>
               {" "}
-              <Link to="#" id={style.Link}>
+              <Link to="#" id={style.Link} onClick={() => scrollToSection('section1')}>
                 {" "}
                 <label className={style.e}>E</label>dwin .
               </Link>
@@ -72,21 +80,22 @@ function LandingPageNavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Link to="#action1" id={style.Link}>
-                    <Nav id={style.Link2}> Home</Nav>
-                  </Link>
+                 
                   <Link to="#action2" id={style.Link}>
-                    <Nav id={style.Link2}> About</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section2')}> About</Nav>
                   </Link>
                   {/* yaa */}
                   <Link to="#action2" id={style.Link}>
-                    <Nav id={style.Link2}> Services</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}> Services</Nav>
                   </Link>
                   <Link to="#action2" id={style.Link}>
-                    <Nav id={style.Link2}> Portfolio</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section4')}> My Work</Nav>
                   </Link>
                   <Link to="#action2" id={style.Link}>
-                    <Nav id={style.Link2}> Contact</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section6')}> Certificates</Nav>
+                  </Link>
+                  <Link to="#action2" id={style.Link}>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section5')}> Contact</Nav>
                   </Link>
                 </Nav>
               </Offcanvas.Body>

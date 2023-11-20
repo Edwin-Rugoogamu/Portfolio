@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./Services.module.css"
 function Services(props) {
     return (
-        <div>
+        <div id="section3">
             <div className='container-fluid' id={style.container}>
                 <div className='row'>
                     <h1>My Services</h1>
@@ -32,7 +32,7 @@ function Services(props) {
                     </div>
             </div>
             <div className='container-fluid' id={style.container}>
-                <div className='row'>
+                <div className='row' id="section4">
                     <h1>My Work</h1>
                     <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label1}>
@@ -58,6 +58,65 @@ function Services(props) {
                             <img src="" alt="" />
                             <h6>Learning Platforms</h6>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
+                            </label>
+                        </label>
+                    </div>
+                   
+                    
+                    </div>
+            </div>
+            <div className='container-fluid' id={style.container}>
+                <div className='row' id="section6">
+                    <h1>My Certifications</h1>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label1}>
+                            <label className={style.label_1} >
+                            <img src="images/Web capture_20-11-2023_153543_.jpeg" alt="" width="100%"/>
+                           
+                           
+                            </label>
+                        </label>
+                    </div>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label2}>
+                            <label className={style.label_1} >
+                            <img src="/images/Web capture_20-11-2023_154041_.jpeg" alt="" width="100%" />
+                           
+                            </label>
+                        </label>
+                    </div>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label3}>
+                            <label className={style.label_1} >
+                            <img src="images/Web capture_20-11-2023_154137_.jpeg" alt="" width="100%" />
+        
+                            </label>
+                        </label>
+                    </div>
+                   
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label1}>
+                            <label className={style.label_1} >
+                                
+                            <img src="/images/Web capture_20-11-2023_154422_2.jpeg" alt="" width="100%" />
+                           
+                           
+                            </label>
+                        </label>
+                    </div>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label2}>
+                            <label className={style.label_1} >
+                            <img src="images/Web capture_20-11-2023_155019_.jpeg" alt=""  width="100%"/>
+                           
+                            </label>
+                        </label>
+                    </div>
+                    <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
+                        <label className={style.label3}>
+                            <label className={style.label_1} >
+                            <img src="images/Web capture_20-11-2023_154840_.jpeg" alt="" width="100%"/>
+        
                             </label>
                         </label>
                     </div>

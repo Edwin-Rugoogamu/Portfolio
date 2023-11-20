@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 function LandingPage(props) {
   return (
     <>
-      <div className={style.main}>
+      <div className={style.main} id="section1">
         <LandingPageNavBar />
         <div id={style.header}>
         <div className="container-fluid" >
@@ -25,7 +25,7 @@ function LandingPage(props) {
             <div className="col" id={style.image}></div>
           </div>
         </div>
-        <AboutMe/>
+        <AboutMe />
         <Services/>
         <Contact/>
         </div>

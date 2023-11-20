@@ -27,3 +27,11 @@
     font-family:sans-serif;
     color: white;
 }
+@media(0px <= width <=767px){
+
+    #row{
+        padding-left: 1%;
+      
+    }
+  }
+  

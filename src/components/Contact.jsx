@@ -4,7 +4,7 @@ import style from "./Contact.module.css";
 
 function Contact(props) {
   return (
-    <div>
+    <div id="section5">
       <div className="container-fluid" id={style.container}>
         <div className="row" id ={style.row}>
         
@@ -18,9 +18,9 @@ function Contact(props) {
             <img src="" alt="" />
             </p>
             <p>
-            <button className={style.button}>
+            <a href="public/images/EDWIN RUGOOGAMU_resume.pdf" download><button className={style.button}>
                 Download CV
-            </button>
+            </button></a>
             </p>
             
           </div>

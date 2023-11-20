@@ -63,3 +63,20 @@
   margin-bottom: 20px;
   border-radius: 5px;
 }
+.label_2{
+  text-align: center;
+  background-image: url(/images/IMG-20220711-WA0056.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  width: 320px;
+  
+
+}
+@media(0px <= width <=767px){
+
+  #container {
+   
+    padding-left: 3px;
+  }
+}

@@ -35,6 +35,10 @@
 
     #col1{
   
-        padding-left: 10%;
+        padding-left: px;
+    }
+    #col{
+  
+        padding-left: 8px;
     }
 }
