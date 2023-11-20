@@ -5,6 +5,7 @@
 #row{
     padding-top: 50px;
     padding-left: 11%;
+    padding-right: 11%;
 }
 #container2{
     background-color: black;
@@ -31,6 +32,7 @@
 
     #row{
         padding-left: 1%;
+        padding-right: 1%;
       
     }
   }

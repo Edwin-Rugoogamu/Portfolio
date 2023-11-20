@@ -4,7 +4,7 @@ function Services(props) {
     return (
         <div id="section3">
             <div className='container-fluid' id={style.container}>
-                <div className='row'>
+                <div className='row' >
                     <h1>My Services</h1>
                     <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label}>
