@@ -9,22 +9,22 @@ function Services(props) {
                     <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label}>
                             <img src="/images/2801091.png" alt="" className={style.image}/>
-                            <h6>Web Design</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
+                            <h6>Web and App Development</h6>
+                            <p>Deliver seamless, scalable web solutions-as-a-service, ensuring user-centric design, robust functionality, and reliable performance. Offer ongoing support, updates, and security, ensuring a hassle-free experience for clients.</p>
                         </label>
                     </div>
                     <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label}>
                             <img src="/images/3476582.png" alt="" className={style.image}/>
                             <h6>UI/UX</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
+                            <p>Craft engaging,prioritizing user needs for compelling digital experiences. Employ industry best practices, iterative design, and user research to deliver aesthetically pleasing interfaces that optimize usability and drive engagement.</p>
                         </label>
                     </div>
                     <div className='col-sm-12  col-md-4 col-lg-4 col-xl-4' id={style.col}>
                         <label className={style.label}>
                             <img src="/images/5376895-200.png" alt="" className={style.image} />
-                            <h6>App Design</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta possimus facere voluptatem rem, libero earum. Aliquid quas corporis perferendis.</p>
+                            <h6>DevOps</h6>
+                            <p>Deliver DevOps services, optimizing workflows for seamless development, deployment, and operations. Implement automation, scalability, and continuous integration to drive efficiency, reliability, and accelerated software delivery cycles.</p>
                         </label>
                     </div>
                    
