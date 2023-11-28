@@ -81,20 +81,20 @@ function LandingPageNavBar() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                  
-                  <Link to="" id={style.Link}>
+                  <Link to="" id={style.Link} onClick={closeOffcanvas}>
                     <Nav id={style.Link2} onClick={() => scrollToSection('section2')}> About</Nav>
                   </Link>
                   {/* yaa */}
-                  <Link to="" id={style.Link}>
+                  <Link to="" id={style.Link} onClick={closeOffcanvas}>
                     <Nav id={style.Link2} onClick={() => scrollToSection('section3')}> Services</Nav>
                   </Link>
-                  <Link to="" id={style.Link}>
+                  <Link to="" id={style.Link} onClick={closeOffcanvas}>
                     <Nav id={style.Link2} onClick={() => scrollToSection('section4')}> My Work</Nav>
                   </Link>
-                  <Link to="" id={style.Link}>
+                  <Link to="" id={style.Link} onClick={closeOffcanvas}>
                     <Nav id={style.Link2} onClick={() => scrollToSection('section6')}> Certificates</Nav>
                   </Link>
-                  <Link to="" id={style.Link}>
+                  <Link to="" id={style.Link} onClick={closeOffcanvas}>
                     <Nav id={style.Link2} onClick={() => scrollToSection('section5')}> Contact</Nav>
                   </Link>
                 </Nav>
