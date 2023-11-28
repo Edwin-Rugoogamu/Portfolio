@@ -75,7 +75,7 @@ function LandingPageNavBar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Edwin
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
