@@ -39,7 +39,25 @@
 .Link:hover{
     color: rgb(0, 204, 255);
 }
-@media(0px <= width <=767px){
+@media(0px <= width <=300px){
+
+    #row{
+        padding-left: 1%;
+        padding-right: 1%;
+      
+    }
+    .button{
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(20, 85, 85);
+        font-weight: bold;
+        font-size: 15px;
+        font-family:sans-serif;
+        color: white;
+    }
+  }
+@media(300px <= width <=767px){
 
     #row{
         padding-left: 1%;
