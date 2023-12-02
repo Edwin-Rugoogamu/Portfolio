@@ -3,6 +3,15 @@ import style from "./Contact.module.css";
 import { useState } from "react";
 import Alert from 'react-bootstrap/Alert';
 import axios from "axios"
+import { IoIosContact } from "react-icons/io";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Contact(props) {
   const [name, setName] = useState("");
@@ -90,16 +99,19 @@ function Contact(props) {
       <div className="container-fluid" id={style.container}>
         <div className="row" id={style.row}>
           <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
-            <h2>Contact Me</h2>
-            <p> rugoogamuedwin5@gmail.com </p>
-            <p> +256775722637</p>
-            <p>
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+            <h2>  Contact Me</h2>
+            <p><MdOutlineEmail size={40}/> <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnZMtPbwZbkSzVgSMkMKLFzkfJvlcSjxBzjWwXsDwjVLLcFmsFclSPdCqgrQWwhKSGjNSl" className={style.Link}>rugoogamuedwin5@gmail.com </a></p>
+            <p><FaPhoneAlt size={40} /> +256775722637</p>
+            <p><FaWhatsapp size={40}/> +256775722637</p>
+            <p className={style.icon}>
+            
+              <Link to="https://www.linkedin.com/in/edwin-rugoogamu-906424244/" className={style.Link}><FaLinkedin size={40} className={style.icons} /></Link>
+              <Link to="https://github.com/Edwin-Rugoogamu" className={style.Link}> <FaGithub size={40} className={style.icons}/></Link>
+              <Link to="" className={style.Link}><FaTwitter size={40} className={style.icons}/></Link>
+              {/* <Link to="" className={style.Link}> <FaDiscord  size={40}className={style.icons} /></Link> */}
             </p>
             <p>
-              <a href="public/images/EDWIN RUGOOGAMU_resume.pdf" download>
+              <a href="public/images/EDWIN RUGOOGAMU_resume (1).pdf" download>
                 <button className={style.button}>Download CV</button>
               </a>
             </p>
