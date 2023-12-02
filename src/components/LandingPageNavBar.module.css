@@ -10,7 +10,7 @@
     color: cadetblue;
     transition: 0.5ms;
   }
-  .Link {
+  #Link {
     text-decoration: none;
     color: white;
   }

@@ -100,8 +100,8 @@ function Contact(props) {
         <div className="row" id={style.row}>
           <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
             <h2>  Contact Me</h2>
-            <p><MdOutlineEmail size={40}/> <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnZMtPbwZbkSzVgSMkMKLFzkfJvlcSjxBzjWwXsDwjVLLcFmsFclSPdCqgrQWwhKSGjNSl" className={style.Link}>rugoogamuedwin5@gmail.com </a></p>
-            <p><FaPhoneAlt size={40} /> +256775722637</p>
+            <p><MdOutlineEmail size={40}/> <Link to="mailto:rugoogamuedwin5@gmail.com" className={style.Link}>rugoogamuedwin5@gmail.com </Link></p>
+            <p><FaPhoneAlt size={40} /> <Link to="tel:+256775722637" className={style.Link}> +256775722637</Link></p>
             <p><FaWhatsapp size={40}/> +256775722637</p>
             <p className={style.icon}>
             

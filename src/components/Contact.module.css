@@ -46,5 +46,15 @@
         padding-right: 1%;
       
     }
+    .button{
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(20, 85, 85);
+        font-weight: bold;
+        font-size: large;
+        font-family:sans-serif;
+        color: white;
+    }
   }
   
