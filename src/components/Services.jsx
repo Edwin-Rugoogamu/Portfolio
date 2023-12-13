@@ -180,12 +180,24 @@ function Services(props) {
               </label>
             </label>
           </div>
+        
           
           <div className="col-sm-12  col-md-4 col-lg-4 col-xl-4" id={style.col}>
             <label className={style.label1}>
               <label className={style.label_1}>
                 <img
                   src="/images/Web capture_20-11-2023_154422_2.jpeg"
+                  alt=""
+                  width="100%"
+                />
+              </label>
+            </label>
+          </div>
+          <div className="col-sm-12  col-md-4 col-lg-4 col-xl-4" id={style.col}>
+            <label className={style.label3}>
+              <label className={style.label_1}>
+                <img
+                  src="images/Web capture_13-12-2023_12466_.jpeg"
                   alt=""
                   width="100%"
                 />
