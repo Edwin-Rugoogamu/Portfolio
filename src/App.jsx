@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Education from "./components/Education";
+import Experience from "./components/Experience/Experience";
+import Skills from "./components/Skills/Skills";
+import Education from "./components/Education/Education";
 
 function App() {
   return (

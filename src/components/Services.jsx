@@ -5,6 +5,7 @@ function Services(props) {
   const vidUrl = "https://youtube.com/shorts/O0FnoOsE3hQ";
   const myVid =
     "videos/To Do List using HTML CSS  JavaScript _ To Do List JavaScript_HIGH.mp4";
+  const learningPlatform = "videos/Try.mp4";
   return (
     <div id="section3">
       <div className="container-fluid" id={style.container}>
@@ -101,10 +102,17 @@ function Services(props) {
               <label className={style.label_1}>
                 <img src="" alt="" />
                 <h6>Learning Platforms</h6>
+                <video
+                  src={learningPlatform}
+                  width="100%"
+                  height={250}
+                  volume={0.5}
+                  controls
+                />
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Labore dicta possimus facere voluptatem rem, libero earum.
-                  Aliquid quas corporis perferendis.
+                  Am really proud to showcase the Refactory Learning Platform
+                  that i have been working on with my team . To promote online
+                  eduction. 
                 </p>
               </label>
             </label>
@@ -180,8 +188,7 @@ function Services(props) {
               </label>
             </label>
           </div>
-        
-          
+
           <div className="col-sm-12  col-md-4 col-lg-4 col-xl-4" id={style.col}>
             <label className={style.label1}>
               <label className={style.label_1}>

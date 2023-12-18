@@ -1,9 +1,9 @@
 import React from "react";
-import LandingPageNavBar from "./components/LandingPageNavBar";
+import LandingPageNavBar from "./components/LandingPage/LandingPageNavBar";
 import style from "./LandingPage.module.css";
-import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/AboutMe/AboutMe";
 import Services from "./components/Services";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 
 function LandingPage(props) {
   return (
