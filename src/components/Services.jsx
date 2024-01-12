@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 function Services(props) {
   const vidUrl = "https://youtube.com/shorts/O0FnoOsE3hQ";
   const myVid =
-    "videos/To Do List using HTML CSS  JavaScript _ To Do List JavaScript_HIGH.mp4";
+    "videos/shoe-store 1.mp4";
   const learningPlatform = "videos/Try.mp4";
   return (
     <div id="section3">
@@ -80,7 +80,7 @@ function Services(props) {
             <label className={style.label2}>
               <label className={style.label_1}>
                 <img src="" alt="" />
-                <h6>Social Media</h6>
+                <h6>Ecommerce Website</h6>
                 <video
                   src={myVid}
                   width="100%"
@@ -90,9 +90,8 @@ function Services(props) {
                 />
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Labore dicta possimus facere voluptatem rem, libero earum.
-                  Aliquid quas corporis perferendis.
+                Explore my exclusive shoe collection, blending comfort and style seamlessly. Elevate your every step with quality craftsmanship. Shop my designs now! 
+
                 </p>
               </label>
             </label>
