@@ -12,7 +12,7 @@ function AboutMe(props) {
         <div className="row">
           <div className="col-sm-12 col-md-5 col-lg-6 col-xl-6" id={style.col}>
             <img
-              src="/images/IMG-20220711-WA0056.jpg"
+              src="/images/DSC_9704.JPG"
               alt=""
               className={style.img}
             />
