@@ -1,0 +1,42 @@
+.main {
+  background-image: url(/home/edwin/Portfolio-main/public/images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  box-shadow: 0 3px 8px rgba(135, 18, 144, 0.945);
+/* position: fixed; */
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  
+}
+#header {
+  padding-top: 150px;
+  position: sticky;
+  background:rgba(1, 54, 64, 0.729);
+  background-image: linear-gradient(to right,black,transparent);
+  /* background-image: linear-gradient(to left,black,transparent); */
+  height: 100%;
+}
+#header_row {
+  padding-left: 10%;
+  margin-bottom: 100px;
+}
+#image {
+  display: inline;
+}
+.img {
+}
+
+.h3{
+    padding-top: 50px;
+    
+}
+.h1{
+    padding-top: 30px;
+}
+.full_stack{
+    color: aqua;
+}

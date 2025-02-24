@@ -1,0 +1,91 @@
+#Navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index:1000;
+  }
+
+  #Link:hover{
+    color: cadetblue;
+    transition: 0.5ms;
+  }
+  #Link {
+    text-decoration: none;
+    color: white;
+  }
+  #Dropdown-Menu {
+    background-color: black;
+  }
+  #toggle {
+    border: none;
+    background-color: black;
+  }
+  #NavToggle {
+    border: none;
+    color: white;
+    background-color: white;
+  }
+  
+  #NavToggle:focus {
+    box-shadow: none;
+  }
+  
+  #NavToggle:hover {
+    color: white;
+  }
+  #offcanvas{
+      background-color: black;
+      color: white;
+  }
+  #offcanvas .btn-close{
+   background-color: white;
+      color: white;
+  }
+  .btn_close .btn-close{
+    color: white;
+    background-color: white;
+  }
+  .e{
+    color: rgb(29, 211, 211);
+    font-size: larger;
+    
+  }
+  
+  @media(0px <= width <= 768px){
+  
+      #offcanvas{
+          text-align: center;
+          width: 70%;
+        
+      }
+      #Link2 {
+          padding-top: 40px;
+          padding-bottom: 40px;
+          /* width: 100%; */
+        }
+        #Link2:hover{
+          background-color: rgba(83, 74, 74, 0.349);
+          transition: 0.5s;
+          /* cursor: pointer; */
+          padding-left: 10px;
+        }
+        #Link {
+          text-decoration: none;
+          color: white;
+          /* width: 100%; */
+            font-size: larger;
+        }
+  }
+  
+  @media(768px <= width <= 2000px){
+  
+    #Link {
+      text-decoration: none;
+      color: white;
+      font-size: larger;
+        margin-right: 20px;
+        
+    }
+  }
+  
