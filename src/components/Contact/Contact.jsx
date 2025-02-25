@@ -111,7 +111,7 @@ function Contact(props) {
               {/* <Link to="" className={style.Link}> <FaDiscord  size={40}className={style.icons} /></Link> */}
             </p>
             <p>
-              <a href="public/images/EDWIN RUGOOGAMU_resume (1).pdf" download>
+              <a href="/public/images/EDWIN RUGOOGAMU_original_resume.docx.pdf" download>
                 <button className={style.button}>Download CV</button>
               </a>
             </p>

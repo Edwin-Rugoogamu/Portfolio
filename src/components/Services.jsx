@@ -60,7 +60,7 @@ function Services(props) {
             <label className={style.label1}>
               <label className={style.label_1}>
                 <img src="" alt="" />
-                <h6>Ecommerce Websites</h6>
+                <h6>Digital Health</h6>
                 <ReactPlayer
                   url={vidUrl}
                   playing={false}
@@ -69,9 +69,7 @@ function Services(props) {
                   height={250}
                 />
                 <p>
-                  Agricultural and Commodities in General trading online ,the
-                  buying and selling of products. Developed a number of them
-                  with great user experience
+                I spearheaded the upgrade of the Community Health Toolkit (CHT) system from version 3.x to 4.x, ensuring a seamless transition while enhancing performance, security, and scalability. My expertise in the process led to an invitation from Medic, the organization behind CHT, to present to other partners and organizations. In this presentation, I shared best practices for approaching the upgrade, key challenges encountered, and the improvements to expect post-upgrade. This engagement not only reinforced my leadership in digital health solutions but also demonstrated my ability to collaborate, guide technical transitions, and contribute to the broader global health tech community.
                 </p>
               </label>
             </label>
@@ -204,6 +202,29 @@ function Services(props) {
               <label className={style.label_1}>
                 <img
                   src="images/Web capture_13-12-2023_12466_.jpeg"
+                  alt=""
+                  width="100%"
+                />
+              </label>
+            </label>
+          </div>
+          <div className="col-sm-12  col-md-4 col-lg-4 col-xl-4" id={style.col}>
+            <label className={style.label3}>
+              <label className={style.label_1}>
+                <img
+                  src="/images/medic.png"
+                  alt=""
+                  width="100%"
+                />
+              </label>
+            </label>
+          </div>
+
+          <div className="col-sm-12  col-md-4 col-lg-4 col-xl-4" id={style.col}>
+            <label className={style.label3}>
+              <label className={style.label_1}>
+                <img
+                  src="/images/dimagi.png"
                   alt=""
                   width="100%"
                 />
