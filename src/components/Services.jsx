@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Services.module.css";
 import ReactPlayer from "react-player";
 function Services(props) {
-  const vidUrl = "https://youtube.com/shorts/O0FnoOsE3hQ";
+  const vidUrl = "https://youtu.be/RSPDfnS1doY";
   const myVid =
     "videos/shoe-store 1.mp4";
   const learningPlatform = "videos/Try.mp4";
