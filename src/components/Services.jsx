@@ -224,6 +224,19 @@ function Services(props) {
             <label className={style.label3}>
               <label className={style.label_1}>
                 <img
+                  src="/images/kubernetes.png"
+                  alt=""
+                  width="100%"
+                />
+              </label>
+            </label>
+          </div>
+
+
+          <div className="col-sm-12  col-md-4 col-lg-4 col-xl-4" id={style.col}>
+            <label className={style.label3}>
+              <label className={style.label_1}>
+                <img
                   src="/images/dimagi.png"
                   alt=""
                   width="100%"
